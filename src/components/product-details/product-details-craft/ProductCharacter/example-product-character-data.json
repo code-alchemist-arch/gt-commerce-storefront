@@ -1,0 +1,19 @@
+{
+  "productCharacter": [
+    {
+      "characterName": "NUT",
+      "characterImage": "Nut.jpg",
+      "displayText": "Nut"
+    },
+    {
+      "characterName": "FLORAL",
+      "characterImage": "Floral.jpg",
+      "displayText": "Floral"
+    },
+    {
+      "characterName": "SMOKE",
+      "characterImage": "Smoke.jpg",
+      "displayText": "Smoke"
+    }
+  ]
+}

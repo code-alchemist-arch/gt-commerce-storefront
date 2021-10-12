@@ -1,0 +1,80 @@
+import React from "react";
+
+const PriceOffIcon = ({ width = 32, height = 32, color = "#2A2D34" }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 73.41 62.14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.3,5.54v24.6a4.55,4.55,0,0,0,1.32,3.19L40.09,59.79a4.51,4.51,0,0,0,6.38,0L71.06,35.2a4.51,4.51,0,0,0,0-6.38L44.6,2.35A4.55,4.55,0,0,0,41.41,1H16.81A4.51,4.51,0,0,0,12.3,5.54Z"
+        fill={color}
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.06"
+      />
+      <circle
+        cx="27.71"
+        cy="16.6"
+        r="5.87"
+        fill={color}
+        stroke="#2e2d2c"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.06"
+      />
+      <path
+        d="M3.1,16.6c0,4.25,5.52,7.7,12.32,7.7s12.33-3.45,12.33-7.7"
+        fill="none"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="6.19"
+      />
+      <path
+        d="M12.26,9.15C7,10,3.1,13,3.1,16.6c0,4.25,5.52,7.7,12.32,7.7s12.33-3.45,12.33-7.7a6.21,6.21,0,0,0-2.7-4.81"
+        fill="none"
+        stroke="#2e2d2c"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.06"
+      />
+      <path
+        d="M46.08,26.75c-4.84-2.2-10.38,4.18-6.76,7.89,1.62,1.66,4.3.49,6.16-.86C52.27,28.84,56.16,36,51.71,40c-3.38,3.06-6.48,1.82-7.1,1.39"
+        fill={color}
+        stroke="#2e2d2c"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.06"
+      />
+      <line
+        x1="36.95"
+        y1="25.11"
+        x2="39.91"
+        y2="28.07"
+        fill={color}
+        stroke="#2e2d2c"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.06"
+      />
+      <line
+        x1="51.78"
+        y1="39.94"
+        x2="54.74"
+        y2="42.9"
+        fill={color}
+        stroke="#2e2d2c"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.06"
+      />
+    </svg>
+  );
+};
+
+export default React.memo(PriceOffIcon);
